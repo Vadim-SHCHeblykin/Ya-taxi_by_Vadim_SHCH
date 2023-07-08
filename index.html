@@ -1,0 +1,389 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <!-- <head> -- это тег, внутри которого хранятся другие теги со служебной информацией о файле
+		Тег <meta> определяет данные (например: кодировка, в которой сохранён текст файла), использующиеся для хранения информации, 
+		предназначенной для браузеров и поисковых систем. -->
+    <meta charset="utf-8" name="ya-taxi" http-equiv="Яндекс.Такси" content="ya-taxi_by_V_SHCH">
+
+    <title>Такси главная </title>
+    <!-- Заголовок документа, который отображается в заголовке окна браузера или на вкладке страницы -->
+
+    <style type="text/css">
+        body {
+            /* тег body, в котором содержится всё содержимое HTML-документа, например: заголовки, параграфы, изображения, гиперссылки, таблицы, списки и т.д. */
+            font-size: 16px;
+            /* css-свойство, где записан размер текста в пикселях, расположенного внутри тега body */
+            font-family: "Yandex Sans Display";
+            /* название шрифта */
+            margin: 0%;
+            /* отступ во всех частях страницы, кроме верхней */
+            margin-top: 1%;
+            /* отступ в верхней части страницы */
+            background: rgb(255, 255, 255);
+            /* css-свойство, где записан цвет фона страницы */
+        }
+
+        h1 {
+            font-family: "Yandex Sans Display";
+            font-size: 14px;
+            /* css-свойство, где записан размер шрифта надписи "Словарь  терминов по программированию" в пикселях */
+            text-align: left;
+            margin-left: 10%;
+            margin-top: 0.1%;
+            color: rgb(189, 181, 181)
+        }
+
+        .letter {
+            font-family: "Yandex Sans Display";
+            font-size: 15px;
+            color: black;
+        }
+
+        .letter2 {
+            font-family: "Yandex Sans Display";
+            font-size: 15px;
+            text-align: center;
+            color: grey;
+        }
+
+        .letter3 {
+            font-family: "Yandex Sans Display";
+            font-size: 12px;
+            text-align: center;
+            color: grey;
+        }
+
+        .l_0 {
+            font-family: "Yandex Sans Display";
+            font-size: 18px;
+            margin-left: 5%;
+            font-weight: bolder;
+        }
+
+        .l_1 {
+            font-family: "Yandex Sans Display";
+            font-size: 25px;
+            margin-left: 5%;
+            font-weight: bolder;
+            color: black;
+        }
+
+        .l_2 {
+            font-family: "Yandex Sans Display";
+            font-size: 14px;
+        }
+
+        .l_3 {
+            font-family: "Yandex Sans Display";
+            font-size: 18px;
+            margin-top: 0%;
+            font-style: normal;
+            color: black;
+        }
+
+        .l_4 {
+            font-family: "Yandex Sans Display";
+            font-size: 30px;
+            margin-left: 5%;
+            font-weight: bolder;
+            color: black;
+        }
+
+        .l_7 {
+            font-family: "Yandex Sans Display";
+            font-size: 16px;
+        }
+
+        .l_8 {
+            font-family: "Yandex Sans Display";
+            font-size: 18px;
+        }
+
+        .l_02 {
+            font-family: "Yandex Sans Display";
+            font-size: 35px;
+            margin-top: 0%;
+            margin-bottom: 0%;
+            text-align: center;
+            background-color: yellow;
+        }
+
+        .l_03 {
+            font-family: "Yandex Sans Display";
+            font-size: 18px;
+            background-color: black;
+            color: white;
+        }
+
+        .l_05 {
+            font-family: "Yandex Sans Display";
+            font-size: 18px;
+            margin-left: 50%;
+            font-weight: bolder;
+            color: black;
+        }
+
+        .text1 {
+            font-family: "Yandex Sans Display";
+            font-size: 35px;
+            font-weight: bolder;
+            margin-top: 5%;
+            color: black;
+        }
+
+        .text2 {
+            font-family: "Yandex Sans Display";
+            font-size: 35px;
+            font-weight: bolder;
+            margin-top: 0%;
+            color: black;
+        }
+
+        .body_1 {
+            width: 693px;
+            height: 530px;
+            margin-left: 5%;
+            background-color: rgb(235, 233, 233);
+        }
+
+        .body_2 {
+            width: 693px;
+            height: 469px;
+            margin-left: 5%;
+            background-color: rgb(235, 233, 233);
+        }
+
+        .body_3 {
+            width: 689px;
+            height: 343px;
+            margin-left: 5%;
+            background-color: rgb(235, 233, 233);
+        }
+
+        .button_1 {
+            margin-left: 0%;
+            background-color: yellow;
+            font-family: "Yandex Sans Display";
+            font-size: 16px;
+        }
+
+        .button_1:hover {
+            margin-left: 0%;
+            background-color: rgb(255, 255, 174);
+            font-family: "Yandex Sans Display";
+            font-size: 16px;
+        }
+
+        .button_1:focus {
+            margin-left: 0%;
+            background-color: rgb(179, 179, 1);
+            font-family: "Yandex Sans Display";
+            font-size: 16px;
+        }
+
+        #pic {
+            float: right;
+            /* Обтекание картинки текстом */
+        }
+
+        #pic_2 {
+            margin-left: 5%;
+        }
+
+        #text {
+            margin-left: 5%;
+            /* Отступ от левого края */
+        }
+    </style>
+
+</head>
+
+<body>
+    <img src="фото\2.png" align="left" style="margin-left: 5%">
+    <h1> &nbsp;&nbsp;&nbsp;&nbsp; Официальный партнёр &nbsp;&nbsp;&nbsp;&nbsp; <span class="l_05"> 8 (3812)
+            49-46-45</span> <br> &nbsp;&nbsp;&nbsp;&nbsp; г. Омск
+        &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <!-- &nbsp; -- это специсимвол неразрывного пробела, который не игнорируется браузером. Данный спецсимвол нужен для задания табуляции между словами -->
+        <span class="letter">Начало работы</span> &nbsp;&nbsp;&nbsp;&nbsp;
+        <span class="letter2">Преимущества работы &nbsp;&nbsp;&nbsp;&nbsp; Приложения &nbsp;&nbsp;&nbsp;&nbsp; Контакты
+            &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; </span>
+        &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <span class="letter3"> <u> заказать звонок </u> </span>
+        <br>
+    </h1>
+
+    <div id="pic"> <img src="фото\1.png" width="769" height="530" vspace="20" hspace="300"></div>
+    <!-- ! нельзя менять местами тэги div с картинкой и текстом -->
+
+    <div class="body_1">
+        <div class="text1"> &nbsp; <br> &nbsp; <br> Зарабатывайте <br> от 50 000р в месяц <br> </div>
+
+        <div class="l_3"> <br> <br> Подключение за 5 минут <br> <br> Работайте тогда, когда удобно <br> <br> Крупнейший
+            автопарк в г. Омске <br> <br> <br>
+            <!-- Атрибут target тега <a> показывает, в каком окне откроется стоящая перед ним ссылка (значение self означает, что ссылка откроется в текущем окне) -->
+            <a href="#zayavka" target="_self"> <button class="button_1" type="button"
+                    style="width: 267px; height: 43px;"> Заполнить анкету </button> </a>
+        </div>
+
+    </div>
+
+    <div class="l_1" style="margin-top: 5%;">Начало работы</div> <br> <br> <br> <br>
+
+    <div class="l_0">
+        <span style="background-color: yellow;"> 1. </span> &nbsp; <u>Оставьтьте заявку</u> на сайте
+        &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+        <span style="background-color: yellow;"> 2. </span> &nbsp; <u>Скачайте</u> приложение &nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;
+        <span style="background-color: yellow;"> 3. </span> &nbsp; Выходите на линию &nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;
+        <span style="background-color: yellow;"> 4. </span> &nbsp; Начните зарабатывать <br> <br>
+    </div>
+
+    <div class="l_7" style="margin-left: 5%;">
+        мы свяжемся с вами для уточнения &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+        для удобного вывода средств &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+        чтобы получить первые заказы &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+        работайте тогда, когда вам удобно <br> деталей <br> <br> <br> <br> <br> <br>
+    </div>
+
+    <div id="pic"> <img src="фото\4.png" vspace="0" width="769" height="589"
+            style="margin-right: 300px; margin-bottom: 10%">
+    </div>
+
+    <div style="background-color: black; color: white; width: 699px; height: 589px; margin-left: 5%;">
+
+        <div class="l_1" style="color: white; margin-left: 0%;"> <br> <br> Работа в удовольствие <br> <br> <br> <br>
+        </div>
+        <img src="фото\vector_1.png" vspace="0" hspace="0" width="20" height="20" style="margin-left: 4%;">
+        <span class="l_8" style="margin-left: 3%;"> Удобный график <br> <br> </span>
+        <div class="l_7" style="margin-left: 11%;"> Работа по нескольку часов в день или <br> каждый день - вы сами
+            выбираете свой <br> график <br> <br> <br> </div>
+        <img src="фото\vector_2.png" vspace="0" hspace="0" width="20" height="20" style="margin-left: 4%;">
+        <span class="l_8" style="margin-left: 3%;"> Деньги - сразу </span> <br> <br>
+        <div class="l_7" style="margin-left: 11%;"> Выводите деньги с помощью удобного мобильного <br> приложения <br>
+            <br> <br>
+        </div>
+        <img src="фото\vector_3.png" vspace="0" hspace="0" width="20" height="20" style="margin-left: 4%;">
+        <span class="l_8" style="margin-left: 3%;"> Партнёрская программа </span> <br> <br>
+        <div class="l_7" style="margin-left: 11%;"> Скидка 20% на ремонт и сервисное <br> обслуживание для водителей
+            парка </div>
+        <br> <br> <br> <br> <br> <br> <br> <br> <br>
+    </div>
+
+    <div id="pic"> <img src="фото\3.png" vspace="0" width="779" height="343"
+            style="margin-right: 300px; margin-top: 0%;">
+    </div>
+    <div class="body_3">
+        <div class="l_1" style="margin-top: 15%; margin-left: 0%;"> &nbsp; <br> &nbsp; <br> &nbsp; <br> Мобильное
+            приложение <br> <br> </div>
+        <div class="l_7"> Мы разработали мобильное приложение для того, <br> тобы вам было удобно! </div> <br> <br> <br>
+        <br>
+        <img src="фото\5.png" width="131" height="38">
+    </div>
+
+    <div class="l_1" style="margin-top: 5%;"> Контакты </div> <br> <br> <br>
+
+    <div style="margin-left: 7%; margin-bottom: 5%;">
+        <img src="фото\wa.png" vspace="0" hspace="0" width="19" height="19"> &nbsp;&nbsp;
+        <span class="l_7"> Написать в What's App </span> &nbsp;&nbsp;&nbsp;&nbsp; <span class="letter3"> тел.: </span>
+        <span class="l_7"> 8 (3812) 49-46-45 </span> &nbsp;&nbsp;&nbsp;&nbsp;
+        <span class="letter3"> Email: </span> <span class="l_7"> info@taxi.ru </span> <br> <br> <br>
+        <img src="фото\vi.png" vspace="0" hspace="0" width="19" height="19"> &nbsp;&nbsp;
+        <span class="l_7"> Написать в Viber </span> &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <span class="letter3"> тел.: </span> 8 (903) 00-00-00 &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;
+        <span class="letter3"> Офис: </span> <span class="l_7"> г.Омск, ул.Дмитриева 15/1 </span> <br> <br>
+        &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;
+        <span class="letter3"> <u> Показать на карте </u> </span> <br>
+    </div>
+
+    <div id="pic"> <img src="фото\6.png" vspace="0" width="769" height="469" style="margin-right: 300px">
+    </div>
+
+    <script type="text/javascript">
+        function save() { // применение AJAX-формы
+            // получение данных из HTML-формы с id=stackoverflow
+            var form = document.querySelector('#stackoverflow');
+            // FormData — это специальная коллекция данных, которая позволяет передавать данные в виде пар [ключ, значение] на сервер при помощи fetch() или XMLHttpRequest.
+            var data = new FormData(form);
+            // XMLHttpRequest() -- это встроенный в браузер объект, который даёт возможность делать HTTP-запросы к серверу без перезагрузки страницы.
+            var req = new XMLHttpRequest();
+            // open -- создать асинхронный (с помощью слова true) POST-запрос к серверу server.php
+            req.open("POST", "server.php", true);
+            req.send(data); // отослать форму на сервер
+            // alert("Сохранено"); // вывести в консоль разработчика сообщение "..сохранено"
+        }/*
+        function countRabbits() {
+            for (let i = 1; i <= 3; i++) {
+                alert("Кролик номер " + i);
+            }
+        }*/
+    </script>
+
+    <a name="zayavka">
+        <div class="body_2"><br> <br> <br> <br>
+
+            <div class="l_1" style="margin-left: 0%; margin-top: 0%; "> Оставить заявку </div> <br> <br> <br>
+
+            <!-- <form id="data" action="mailto:shcheblykin-v@mail.ru" enctype="text/plain" method="post"> -->
+            <form id="stackoverflow" action="" method="POST">
+                <!-- size = размер поля для ввода текста; maxlength = максимально разрешённое кол-во вводимых в поля символов 
+                    required = атрибут, который делает поле для ввода обязательным для заполнения перед отправкой формы на сервер 
+                    Метод post посылает на сервер данные в запросе браузера
+                    value = значение поля ля ввода текста по умолчанию (атрибут задействован с целью ускорения тестирования кода по отправке данных)
+                -->
+                <span class="l_2"> ФИО </span> <br>
+                <input type="text" name="fio" size="40" maxlength="40" value="Щеблыкин Вадим Андреевич" required> <br>
+                <br> <br>
+
+                <span class="l_2"> Телефон </span> <br>
+                <input type="text" name="telefon" size="40" maxlength="16" value="+7(908)796-26-52" required> <br> <br>
+
+                <br>
+                <button class="button_1" style="width: 172px; height: 43px;" type="submit" onclick="save()">
+                    <!-- <button class="button_1" style="width: 172px; height: 43px;" type="submit" onclick="countRabbits()"> -->
+                    Отправить
+                </button>
+
+                <!-- form="data" -- это связь кнопки с формой, внутри которой находятся поля для записи данных, которые потом будут отправлены на сервер -->
+                <span class="letter3"> &nbsp;&nbsp;&nbsp;&nbsp; Нажимая на кнопку, вы соглашаетесь с <u> политикой
+                        конфиденциальности </u> <br>
+                </span>
+            </form>
+        </div>
+    </a>
+    <div class="l_02"> <br> <b>Нет автомобиля?</b> Работать на авто компании ➔ <br><br> </div>
+
+    <div class="l_03">
+        <br>
+        <div id="text">
+            <span style="color: rgb(155, 155, 155);"> Официальный партнёр Яндекс.Такси <br> г. Омск </span>
+            &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+            <span style="color: rgb(97, 97, 97);">
+                Начало работы &nbsp;&nbsp;&nbsp;&nbsp; Преимущества &nbsp;&nbsp;&nbsp;&nbsp; Отзывы
+                &nbsp;&nbsp;&nbsp;&nbsp; Приложения &nbsp;&nbsp;&nbsp;&nbsp; </span>
+            Контакты &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+            <span style="color: rgb(97, 97, 97);"> Политика конфиденциальности </span> <br> <br>
+
+            <span style="color: rgb(155, 155, 155);"> ОГРНИП 12345432112344 <br><br> </span>
+        </div>
+    </div>
+</body>
+
+</html>
